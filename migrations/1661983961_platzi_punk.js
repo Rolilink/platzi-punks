@@ -1,5 +1,5 @@
 var PlatziPunksContract = artifacts.require("PlatziPunks");
 
 module.exports = function(_deployer) {
-  _deployer.deploy(PlatziPunksContract);
+  _deployer.deploy(PlatziPunksContract, 1000);
 };
