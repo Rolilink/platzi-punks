@@ -5,5 +5,9 @@
   "license": "MIT",
   "dependencies": {
     "@openzeppelin/contracts": "^4.7.3"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "atob": "^2.1.2"
   }
 }
